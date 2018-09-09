@@ -1,6 +1,6 @@
 # Simple-Evolutionary-Algorithm
 
-This repository holds the code that implements the solution for the problem proposed by Goldberg [1]. I used a simple evolutionary algorithm consisting of:
+This repository holds the code that implements the solution for the problem proposed by Goldberg [1]. I used a simple evolutionary algorithm (EA) consisting of:
 
  - Random initialization of the population
  - Fitness evaluation
@@ -9,11 +9,14 @@ This repository holds the code that implements the solution for the problem prop
  - Mutation
  - Parent replacement
  
- The termination condition is based on a limited number of epochs.
- 
- To run the algorithm:
- 
-    > javac Run.java
+ The EA terminates when it finds the global optimum. By default, the fitness function is f(x) = cos(1.3 * (x-1.5)) * cos(10.0 * (x - 1.5)). It has a maximum in x = 1.5 where  f(1.5) = 1.
+
+ Compilation:
+
+    > javac *.java
+
+Run:
+
     > java Run
 
 
