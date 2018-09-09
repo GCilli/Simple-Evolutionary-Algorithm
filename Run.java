@@ -1,7 +1,7 @@
 public class Run {
     public static void main(String[] s) {
-        int populationSize = 200;
-        int bitFieldSize = 10;
+        int populationSize = 4;
+        int bitFieldSize = 5;
 
         Individual[] population = new Individual[populationSize];
         
@@ -10,6 +10,9 @@ public class Run {
         }
 
         Solver solver = new Solver(bitFieldSize, populationSize, population);
+
+        // Fitness fn = new Fitness();
+        // System.out.println(fn.getFitness(19));
 
         solver.run();
     }
