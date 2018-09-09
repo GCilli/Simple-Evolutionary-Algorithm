@@ -23,4 +23,5 @@ Run:
 ## References
 
 [1] David E. Goldberg. 1989. Genetic Algorithms in Search, Optimization and Machine Learning (1st ed.). Addison-Wesley Longman Publishing Co., Inc., Boston, MA, USA.
+
 [2] A. E. Eiben and James E. Smith. 2015. Introduction to Evolutionary Computing (2nd ed.). Springer Publishing Company, Incorporated. 
